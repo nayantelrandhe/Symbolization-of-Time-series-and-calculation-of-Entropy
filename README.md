@@ -3,7 +3,7 @@
 ### Workflow to Calculate Entropy of a list of Time Series after their symbolization
 
 Normalised Corrected Shannon Entropy is calculated for different time series.
-The following steps are performed on a Signal or time series '$T$' . 
+The following steps are performed on a Signal or time series  ' $T$ ' . 
 > 1. Mean is calculated for $T$.
 > 2. A **Threshold** value $\theta$ is chosen and $T$ is converted into a sequence of 0s and 1s based on threshold.
 > 3. This binary sequence is converted into a word sequence based on a choice of **Wordlength** $w$. The data points are grouped into words based on a moving window having it's size equal to the word length.
